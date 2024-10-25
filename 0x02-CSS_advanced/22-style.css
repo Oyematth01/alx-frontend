@@ -559,7 +559,6 @@ a:active {
 	text-align: right;
 }
 
-
 /* CSS rule that creates a new row after each instance of the class row */
 .row::after {
   content: "";
