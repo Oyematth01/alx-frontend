@@ -404,7 +404,7 @@ template {
 	--header-logo-link-display: inline-block;
 	--header-logo-link-position: absolute;
 	--header-logo-link-top: -1rem;
-	--header-logo-link-left: 
+	--header-logo-link-left: 0
 }
 
 /* universal box-sizing */
