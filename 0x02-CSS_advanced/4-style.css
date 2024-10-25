@@ -1,7 +1,4 @@
-html {
-	scroll-behavior: smooth;
-}
-
+/* Creating some variables */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -13,9 +10,18 @@ html {
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+
 body {
 	font-family: var(--font-family-base);
   color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
 }
 
 a {
@@ -32,8 +38,4 @@ a {
 
 .section-tagline {
   color: var(--color-primary);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
 }
